@@ -1,0 +1,247 @@
+/*
+a{
+    text-decoration: none;
+}
+*/
+body {
+    font-family: 'Hannotate','Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic' !important;
+    }
+
+.navbar{
+    /*background-color: antiquewhite !important;*/
+    background-color:white !important;
+    border: 2px dotted grey !important;
+    /*border-style: hidden double dashed;*/
+} 
+.nav-one{
+    border-right: solid;
+    border-color: grey;
+}
+/*.nav-one2{
+    border-left: solid;
+    border-color: grey;
+}*/
+.nav-link{
+    color:saddlebrown !important;
+}
+.nav-link1{
+  color:olive !important;
+}
+body{
+    /*background:url("/media/resource/spaceMap.png");*/
+    /*background:url("/media/resource/whiteMovie.mp4") !important;*/
+    /*background-size:contain; */
+    /*background-color:rgba(249, 235, 235, 0.8);*/
+    background-blend-mode: lighten;
+}
+body {
+    font-family: 'Hannotate SC','HanziPen SC','Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic' !important;
+    }
+
+/*動画用*/
+.mv {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+   
+  /* 全体を囲う要素 */
+  .mv-wrap {
+    position: relative;
+    /* 背景画像の高さ */
+    height: 500px;
+  }
+   
+  video {
+    display: block;
+    width: 100%;
+    /* 背景画像の高さ */
+    height: 500px;
+    /* 高さを維持したまま全体を表示させる */
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+   
+  .mv-bg {
+    display: block;
+    width: 100%;
+    /* 背景画像の高さ */
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* 薄いレイヤーの色 */
+    background-color: rgba(0, 30, 0, 0.2);
+    /* videoの上に乗せる */
+    z-index: 2;
+  }
+   
+  .mv-txt {
+    color: #fff;
+    font-size: 50px;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* レイヤー背景の上に乗せる */
+    z-index: 3;
+    margin: auto;
+    text-align: center;
+  }
+  /*〜動画用*/
+
+
+
+  .nav-item a {
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-decoration: none;
+    /* アニメーション速度を指定 */
+    transition: color 0.3s ease-out;
+  }
+  .nav-item a:hover {
+    /* hover後に色を変化させる指定 */
+    color:black !important;
+  }
+
+.h2, h2 {
+    font-size: 12pt !important;
+}
+.m-4{
+    background-color: rgb(234,234,234) !important;
+}
+
+.wrap {
+  margin: 1em 0 !important;
+}
+a{
+  text-decoration: none !important
+}
+
+
+
+/*.yokonarabi p:nth-child(4){
+  display: none;
+}*/
+.yokonarabi p:nth-child(5) {
+  display: none;
+}
+.yokonarabi p:nth-child(6){
+  display: none;
+}
+.yokonarabi p:nth-child(7){
+  display: none;
+}
+.yokonarabi p:nth-child(8){
+  display: none;
+}
+.yokonarabi p:nth-child(9){
+  display: none;
+}
+
+.yokonarabi p:nth-child(10){
+  display: none;
+}
+.yokonarabi p:nth-child(11){
+  display: none;
+}
+.yokonarabi p:nth-child(12){
+  display: none;
+}
+.yokonarabi p:nth-child(13){
+  display: none;
+}
+.yokonarabi p:nth-child(14){
+  display: none;
+}
+.yokonarabi p:nth-child(15){
+  display: none;
+}
+.yokonarabi p:nth-child(16){
+  display: none;
+}
+.yokonarabi p:nth-child(17){
+  display: none;
+}
+.yokonarabi p:nth-child(18){
+  display: none;
+}
+.yokonarabi p:nth-child(19){
+  display: none;
+}
+.yokonarabi p:nth-child(20){
+  display: none;
+}
+.yokonarabi p:nth-child(21){
+  display: none;
+}
+.yokonarabi p:nth-child(22){
+  display: none;
+}
+.yokonarabi p:nth-child(23){
+  display: none;
+}
+.yokonarabi p:nth-child(24){
+  display: none;
+}
+.yokonarabi p:nth-child(25){
+  display: none;
+}
+.yokonarabi p:nth-child(26){
+  display: none;
+}
+.yokonarabi p:nth-child(27){
+  display: none;
+}
+.yokonarabi p:nth-child(28){
+  display: none;
+}
+.yokonarabi p:nth-child(29){
+  display: none;
+}
+.yokonarabi p:nth-child(30){
+  display: none;
+}
+.yokonarabi p:nth-child(31){
+  display: none;
+}
+.yokonarabi p:nth-child(32){
+  display: none;
+}
+.yokonarabi p:nth-child(33){
+  display: none;
+}
+.yokonarabi p:nth-child(34){
+  display: none;
+}
+.yokonarabi p:nth-child(35){
+  display: none;
+}
+.yokonarabi p:nth-child(36){
+  display: none;
+}
+.yokonarabi p:nth-child(37){
+  display: none;
+}
+.yokonarabi p:nth-child(38){
+  display: none;
+}
+.yokonarabi p:nth-child(39){
+  display: none;
+}
+.yokonarabi p:nth-child(40){
+  display: none;
+}
+.yokonarabi p:nth-child(41){
+  display: none;
+}
+.yokonarabi p:nth-child(42){
+  display: none;
+}
